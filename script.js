@@ -1,9 +1,10 @@
 function indexOfIgnoreCase(s1, s2) {
 
-	let str = s1.toLowerCase();
-	let Substr = s2.toLowerCase();
+	 let str = s1.toLowerCase();
+    let Substr = s2.toLowerCase();
 
-	return str.indexof(Substr)
+    // Use indexOf to find the first occurrence (corrected method name)
+    return str.indexOf(Substr);
 	
 } 
 
